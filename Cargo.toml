@@ -1,8 +1,8 @@
 [package]
-name = "nanval"
+name = "litl-nanval"
 version = "0.2.0"
 license = "MIT OR Apache-2.0"
-authors = ["Longor1996 <lalongok@gmail.com>"]
+authors = ["Longor1996 <lalongok@gmail.com>", "Anselm Eickhoff <anselm@usegarden.com>"]
 edition = "2021"
 
 description = "A 64-bit value, that is either a floating-point number (`f64`), or an arbitrary 52-bit integer."
@@ -10,8 +10,8 @@ keywords = ["nan", "nanbox", "tagged-enum", "pointers", "tagged-pointers"]
 categories = ["no-std"]
 
 readme = "README.md"
-homepage = "https://github.com/Longor1996/nanval"
-repository = "https://github.com/Longor1996/nanval"
+homepage = "https://github.com/usegarden/nanval"
+repository = "https://github.com/usegarden/nanval"
 
 [features]
 default = ["std", "cell"]
